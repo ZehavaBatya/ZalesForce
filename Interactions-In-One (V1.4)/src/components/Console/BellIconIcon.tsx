@@ -1,0 +1,13 @@
+import { memo, SVGProps } from 'react';
+
+const BellIconIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg preserveAspectRatio='none' viewBox='0 0 34 43' fill='none' xmlns='http://www.w3.org/2000/svg' {...props}>
+    <path
+      d='M14.875 32.25H19.125C19.125 33.5639 18.1688 34.6389 17 34.6389C15.8313 34.6389 14.875 33.5639 14.875 32.25ZM23.375 28.6667V23.0767C23.375 19.3978 21.6538 16.34 18.5938 15.5278V14.9306C18.5938 13.9511 17.8713 13.1389 17 13.1389C16.1288 13.1389 15.4063 13.9511 15.4063 14.9306V15.5278C12.3675 16.34 10.625 19.3978 10.625 23.0767V28.6667H8.5V31.0556H25.5V28.6667H23.375ZM17 5.97222L4.25 16.7222V38.2222H29.75V16.7222L17 5.97222ZM17 0L34 14.3333V43H0V14.3333L17 0Z'
+      fill='black'
+    />
+  </svg>
+);
+
+const Memo = memo(BellIconIcon);
+export { Memo as BellIconIcon };
